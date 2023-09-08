@@ -51,9 +51,7 @@ p{
     box-shadow: 0 0 12px #fff;
 
 }
-section{
-    height: 100vh;
-}
+
 /* gallery */
 .grid {
     display: flex;
