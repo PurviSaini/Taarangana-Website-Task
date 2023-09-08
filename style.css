@@ -73,7 +73,7 @@ section{
         margin-bottom: 1rem;
     }
     .grid > div {
-        border: 7px white solid;
+        border: 5px white solid;
         border-radius: 10px;
         display: flex;
         flex-direction: column;
