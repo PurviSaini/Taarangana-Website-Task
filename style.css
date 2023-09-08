@@ -130,3 +130,11 @@ p{
     from, to { border-color: transparent }
     50% { border-color: rgba(255, 166, 0, 0); }
   }
+  @media screen and (max-width: 600px) {
+    #about-content {
+      font-size: xx-small;
+    }
+    h2{
+        font-size: xx-large;
+    }
+  }
