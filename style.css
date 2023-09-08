@@ -102,3 +102,26 @@ section{
 .subheading{
     font-style: italic;
 }
+/* animation */
+.typewriter {
+    overflow: hidden; 
+    border-right: .15em solid rgba(34, 34, 33, 0); 
+    white-space: nowrap; 
+    margin: 0 auto; 
+    letter-spacing: .15em; 
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: rgba(255, 166, 0, 0); }
+  }
